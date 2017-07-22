@@ -21,7 +21,7 @@ public class AppTest{
 	
 	@Test
     public void test(){
-        //分页参数
+        //分页参数 
         Page page = PageHelper.startPage(1, 3);
         //查询参数
         HashMap hashMap = new HashMap();
